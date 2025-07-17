@@ -1,0 +1,6 @@
+Helper:
+# - command 
+-> - explanation 
+
+# echo "text" 
+-> prints text on your linux bash 
