@@ -1,0 +1,19 @@
+status codes : 
+| Code | Meaning                | Vibe                 |
+| ---- | ---------------------- | -------------------- |
+| 200  | OK                     | ✅ All good         |
+| 201  | Created                | 🆕 New thing born    |
+| 204  | No Content             | 🤐 Done but silent  |
+| 400  | Bad Request            | ❌ You messed up    |
+| 401  | Unauthorized           | 🔐 Access denied    |
+| 403  | Forbidden              | ⛔ Not allowed      |
+| 404  | Not Found              | 🚫 Wrong door       |
+| 415  | Unsupported Media Type | 🗂️ Wrong format     |
+
+for python : 
+| Method       | Purpose                  | Payload Format     | Typical Use       |
+| ------------ | ------------------------ | ------------------ | ----------------- |
+| `get()`      | Read/Fetch               | `params=`          | Fetch data        |
+| `post()`     | Create/Send              | `json=` or `data=` | Register/login    |
+| `put()`      | Update (replace)         | `json=`            | Change settings   |
+| `Session()`  | Persist identity/cookies | –                  | Login-based flows |
