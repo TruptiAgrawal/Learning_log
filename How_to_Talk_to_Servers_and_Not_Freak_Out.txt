@@ -1,4 +1,5 @@
 status codes : 
+--------------
 | Code | Meaning                | Vibe                 |
 | ---- | ---------------------- | -------------------- |
 | 200  | OK                     | ✅ All good         |
@@ -10,13 +11,24 @@ status codes :
 | 404  | Not Found              | 🚫 Wrong door       |
 | 415  | Unsupported Media Type | 🗂️ Wrong format     |
 | 422  | Unprocessable Entity	|🧠 Doesn't make sense|
-| 500 |	 Server Error   	|🧯 Backend went boom |
+| 500  | Server Error   	|🧯 Backend went boom |
 
-
-for python : 
+In general :
+------------ 
 | Method       | Purpose                  | Payload Format     | Typical Use       |
 | ------------ | ------------------------ | ------------------ | ----------------- |
 | `get()`      | Read/Fetch               | `params=`          | Fetch data        |
 | `post()`     | Create/Send              | `json=` or `data=` | Register/login    |
 | `put()`      | Update (replace)         | `json=`            | Change settings   |
 | `Session()`  | Persist identity/cookies | –                  | Login-based flows |
+
+Packages you can use on the basis of language:
+----------------------------------------------
+Python : requests  
+
+Scala  : requests  
+	 AkkaHTTP 
+
+Elixir : Finch 
+	 Wreq 
+	 HTTPoison 
