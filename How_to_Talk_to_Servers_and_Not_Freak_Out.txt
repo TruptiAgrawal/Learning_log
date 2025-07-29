@@ -9,6 +9,9 @@ status codes :
 | 403  | Forbidden              | ⛔ Not allowed      |
 | 404  | Not Found              | 🚫 Wrong door       |
 | 415  | Unsupported Media Type | 🗂️ Wrong format     |
+| 422  | Unprocessable Entity	|🧠 Doesn't make sense|
+| 500 |	 Server Error   	|🧯 Backend went boom |
+
 
 for python : 
 | Method       | Purpose                  | Payload Format     | Typical Use       |
