@@ -4,3 +4,8 @@ For gemini AI:
 - then create a file called chat.py in your git repo (good practice)
 - and then run it in your terminal and voila! happy chatting!
 change this into an professional log and let it still be fun
+
+Steps to Set Up Gemini CLI on Windows:
+- Visit the official Gemini CLI download page.
+- Select the Windows Installer option.
+- Run the installer and follow the on-screen instructions carefully to complete the setup.
