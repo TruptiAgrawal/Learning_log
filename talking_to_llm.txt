@@ -1,0 +1,6 @@
+For gemini AI:
+- go to aistudio.google.com/app/apikey -> create an API and store it in your folder safely
+- Download python and gemini sdk on your laptop.
+- then create a file called chat.py in your git repo (good practice)
+- and then run it in your terminal and voila! happy chatting!
+change this into an professional log and let it still be fun
