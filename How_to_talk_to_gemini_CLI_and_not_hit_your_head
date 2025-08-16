@@ -18,5 +18,11 @@ Error solving in CLI:
 * Write down the exact error 
 * make a short concise prompt to address the root of error if possbile 
 
+Key notes:
+* Document the major instructions, summaries, critiques and improvements suggested. 
+* Make sure to store you output after every significant change if you do not want to loose your progress. 
+* make a log of what you learnt.
+* Make sure to run gemini cli multiple times instead of a single strech 
+
 Summary:
 Gemini CLI is dumb. shift to something else if possible. 
