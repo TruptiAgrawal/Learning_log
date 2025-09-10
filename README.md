@@ -3,7 +3,6 @@
 <p align="center">
   🥰 A cozy place where I document my learning journey, projects & experiments ❤️  
 </p>
----
 
 ## 💖 What's Inside?
 - 📝 **Learning Logs** – Weekly updates of what I’m learning   
