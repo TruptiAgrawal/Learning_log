@@ -1,8 +1,0 @@
-Helper:
-# - command 
--> - explanation 
-ex - example 
-
-# echo "text" 
--> prints text on your linux bash 
-
