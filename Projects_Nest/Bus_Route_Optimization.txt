@@ -40,6 +40,13 @@ Algorithms Considered :
 4. Clarke and wright's Algorithm 
 5. Simulated annealing 
 
+My part so far : 
+--------------- 
+- Explored Genetic Algorithm 
+- Explored how is that relavant to the project
+- how can it be implemented and the role of each function 
+- Visual debugging screen to potray the same 
+
 References ? 
 ---------- 
 ! https://en.wikipedia.org/wiki/Travelling_salesman_problem 
