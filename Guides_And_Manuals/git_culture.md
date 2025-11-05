@@ -4,7 +4,7 @@ A VCS tool, or Version Control System tool, is software used to track and manage
 
 Commit Conventions: 
 ------------------
- [ <type>(<scope>): <short summary> ] 
+ [type](<scope>): short summary 
 
 | Type       | Meaning                                    |
 | ---------- | ------------------------------------------ |
