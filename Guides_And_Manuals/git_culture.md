@@ -4,7 +4,7 @@ A VCS tool, or Version Control System tool, is software used to track and manage
 
 Commit Conventions: 
 ------------------
- [type](<scope>): short summary 
+ [type][scope]: short summary 
 
 | Type       | Meaning                                    |
 | ---------- | ------------------------------------------ |
@@ -33,3 +33,10 @@ Curiousity Dump:
     If you wrote: git commit -m "Added JWT-based user authentication"
     It sounds like you’re describing something that already happened in the past — 
     but **Git commits are the record of what happened.**
+
+Refernces: 
+---------
+https://docs.github.com/en/repositories/creating-and-managing-repositories/best-practices-for-repositories 
+https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405 
+https://dev.to/pwd9000/github-repository-best-practices-23ck 
+https://github.com/CodeFactoryBerlin/OpenSourceRepoTemplate?tab=readme-ov-file#compass-roadmap
