@@ -10,4 +10,6 @@ Learning:
 2. ⁠compare them and take the best of the versions and make a new version. 
 3. Ask for summaries after a significant work to make sure the llm is following throughly. 
 4. properly document all the specifications of the system to act as a template that can be used as base to create multiple versions. 
-5. Take the best of the versions and move ahead constructively. 
+5. Take the best of the versions and move ahead constructively.
+
+note: Key factor here remains the way the process is documented : which can clearly help the user to understand the workflow of the project.
