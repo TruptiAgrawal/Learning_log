@@ -18,4 +18,4 @@ Learning:
 
 Note: 
 ----
-Key factor here remains the way the process is documented : which can clearly help the user to understand the workflow of the project.
+Key factor here remains the way the process is documented : which can clearly help the user/llm to understand the workflow of the project.
