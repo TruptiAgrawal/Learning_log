@@ -1,0 +1,68 @@
+Futoshiki solver:
+- Building a solver that finds a solution to a Futoshiki game
+
+rules:
+rules are pretty simple that each row and column cell has a unique digit while making sure to satisfy the inequalities.
+
+
+ex: [2] [1] < [3] 
+    [1] [3]   [2] 
+    [3] [2]   [1]
+
+so, the solving statergy proposed by our team was:
+1. cehck if the board provided is a valid board -> if there is a solution possible at all 
+2. Check for the candidates possible per cell 
+3. propogate the cells by using 3 main logics -> 1. one cell reamnining 2. one digit remaining 3. AB elimination - remove the candiates not possible using this tech with the formula 
+4. Backtrack by checking the remaining candidate values 
+
+AB ELIMINATION:
+* Arc consistency means removing choices that can never work. Example: if A = {1,2,3}, B = {2}, and rule is “A ≠ B”, then remove 2 from A.
+* A value is removed if it fails the rule with every value in the connected variable.
+* This reduces wrong possibilities early and makes solving faster.
+
+Languages implemented in:
+------------------------
+1. Rust 
+2. Go 
+3. Elixir 
+4. Python 
+
+why the diversity?
+-----------------
+This is a deliberate learning vehicle.
+1. so cognitive load stays focused on "how does this language want me to think?" rather than "what am I even building?
+2. Figure out strong points of the languages 
+
+
+  ┌────────────┬──────────────────────┬───────────────────────────────────┬───────────┬─────────────────────────┬───────────────────────┐
+  │  Language  │       Paradigm       │       Backtracking Approach       │    UI     │  Strongest Point Here   │     Weakness Here     │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │            │                      │ Mutates board in-place via        │           │ Fast to write, clean    │ No GUI path;          │
+  │ Go         │ Imperative, mutable  │ pointer                           │ CLI only  │ algorithm               │ step-recording would  │
+  │            │                      │                                   │           │                         │ be messy              │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │            │                      │                                   │           │ Type safety catches     │                       │
+  │ Rust v1    │ Systems + functional │ Clones board before each guess    │ TUI       │ constraint bugs at      │ Steep learning curve  │
+  │            │                      │                                   │           │ compile time            │                       │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │            │                      │                                   │           │ Safe cloning makes      │                       │
+  │ Rust v2    │ Systems + functional │ Same as v1                        │ GUI       │ backtracking            │ Verbose boilerplate   │
+  │            │                      │                                   │           │ structurally correct    │                       │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │            │ Systems + functional │ Clone + records every             │ Polished  │ Full solver replay for  │ Same curve, but v3    │
+  │ Rust v3    │  + step recording    │ Try/Backtrack/Propagate as a      │ UI        │ animated visualization  │ shows the payoff      │
+  │            │                      │ typed Step                        │           │                         │                       │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │            │                      │ Immutable maps, new map per       │ Phoenix   │ LiveView gives          │ Slower for heavy      │
+  │ Elixir     │ Pure functional      │ recursive call                    │ web app   │ real-time board UI with │ compute               │
+  │            │                      │                                   │           │  no JS                  │                       │
+  ├────────────┼──────────────────────┼───────────────────────────────────┼───────────┼─────────────────────────┼───────────────────────┤
+  │ Python     │ Dynamic,             │                                   │ CLI /     │ Readable, fast to       │ No compile-time       │
+  │ (planned)  │ multi-paradigm       │ Likely list copies or recursion   │ notebook  │ prototype new           │ safety; slowest       │
+  │            │                      │                                   │           │ heuristics              │ runtime               │
+  └────────────┴──────────────────────┴───────────────────────────────────┴───────────┴─────────────────────────┴───────────────────────┘
+
+  ---
+  Best fit: Rust v3 for the solver + visualization. Elixir/Phoenix if the primary goal is a web-playable puzzle.
+
+  
