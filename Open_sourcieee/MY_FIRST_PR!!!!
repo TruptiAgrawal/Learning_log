@@ -1,0 +1,25 @@
+June 28 2026 — I Accidentally Became an Open Source Contributor (Kind Of)
+
+So today I decided to contribute to freeCodeCamp. A project used by millions. No big deal. 👀
+
+What I did:
+- Searched a massive codebase for spelling errors in code comments
+- Found gems like searcn (search), fuffill (fulfill))
+- Learned that collapsable is not a word. It's collapsible. English is hard.
+
+What I thought the workflow was:
+
+▎ Fork → Fix → PR → Fame
+
+What the workflow actually is:
+
+▎ Fork → Fix → PR → Bot yells at you 😭 → Create issue → Wait → Update PR → Pray 🙏
+
+Things I learned:
+1. Always create a GitHub issue before opening a PR — even for tiny fixes. The bot WILL find you.
+2. Branch names matter — fix/spelling-in-comments > comment-typos. Professionalism is a vibe.
+3. Commit messages follow a format: fix(scope): description — not just "fixed stuff"
+4. Open source is 10% coding, 90% reading contribution guidelines you didn't read the first time
+
+Current status: Issue open. PR waiting. Fingers crossed. 🤞
+First PR is always the scariest. But I took the first step.
