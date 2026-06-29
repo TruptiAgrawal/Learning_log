@@ -1,5 +1,5 @@
 June 28 2026 — I Accidentally Became an Open Source Contributor (Kind Of)
-
+-------------------------------------------------------------------------
 So today I decided to contribute to freeCodeCamp. A project used by millions. No big deal. 👀
 
 What I did:
@@ -23,3 +23,25 @@ Things I learned:
 
 Current status: Issue open. PR waiting. Fingers crossed. 🤞
 First PR is always the scariest. But I took the first step.
+
+June 29 2026 - MY FIRST REJECTION
+------------------------------------------------------
+Plot twist: my first PR got deprioritized and closed. 💀
+
+What happened:
+- Found 4 spelling errors in code comments using aspell
+- Fixed them, committed, pushed, opened a PR like a pro
+- Bot yelled at me for not having an issue first
+- Created the issue. Felt good.
+- Someone named yzakmuz swooped in and opened THEIR OWN PR on MY issue 9 hours later
+- Maintainer closed BOTH of ours with a deprioritized label
+- Conversation locked. Case closed. We don't talk about it. 🤝
+
+What I learned this time:
+1. Not all valid fixes are worth maintainers' time — comment typos rank low on priority
+2. A purple "Merged" badge = success. A closed PR without it = rejected
+3. Open source maintainers are busy people managing millions of users — they triage ruthlessly
+4. Look for issues labeled help wanted or first timers only — those are the ones they ACTUALLY want help with
+5. Getting rejected is not failing. It's learning what to pick next time.
+
+Next move: Find a help wanted issue and try again. 💪
