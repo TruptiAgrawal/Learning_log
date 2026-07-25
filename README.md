@@ -12,10 +12,15 @@ This repository is my personal knowledge hub, structured to help me learn and gr
 
 ### 💻 Projects_Nest
 My personal coding projects and practice repositories. This is where I build things from scratch.
+- **AI Repo Summarizer** - AI-powered GitHub repo summarizer (MCP, FastAPI, Streamlit)
 - **Amazon Clone Static Page** - Frontend practice project
-- **Movie Recommendation System** - ML-based recommendation engine
 - **Bus Route Optimization** - Algorithm optimization project
 - **Chess Game** - Game development project
+- **Futoshiki** - Puzzle solver project
+- **MARS** - Multi-agent radioactive segmentation
+- **Movie Recommendation System** - ML-based recommendation engine
+- **SAGE** - Notes on tokens
+- **taskBrew** - Java learning project (Spring Boot, auth concepts)
 
 ### 🛠️ Guides_And_Manuals
 Guides and tutorials I've created for myself on various topics. These are my go-to resources.
@@ -31,6 +36,20 @@ A place where I explore new technologies and frameworks.
 - **Talking to LLM** - Working with AI models
 - **How to Talk to Gemini CLI** - CLI tools and workflows
 - **Version Control Diary** - Git learning notes
+
+### 🧑‍💻 Open_sourcieee
+Notes from my open source contribution journey.
+- **My First PR** - First open source pull request
+- **Open Source Contribution 2** - Continued open source contributions
+- **Nextjs** - Next.js learning notes
+
+### 🗣️ Learn_To_Communicate_lol
+Notes on frameworks and tools I'm learning.
+- **UI Frameworks (Rust)** - UI framework notes
+
+### 🤖 Well..Machine..learning
+Machine learning concepts and questions.
+- **A Famous Question** - ML concept notes
 
 ---
 
