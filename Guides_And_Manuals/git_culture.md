@@ -40,3 +40,10 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/best-
 https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405 
 https://dev.to/pwd9000/github-repository-best-practices-23ck 
 https://github.com/CodeFactoryBerlin/OpenSourceRepoTemplate?tab=readme-ov-file#compass-roadmap
+
+
+new commands:
+------------
+1. what if you had a typo in your recent commit? no issues. amend your mistakes. literally.
+
+- use: git commit --amend -m "xyz" 
