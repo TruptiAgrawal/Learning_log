@@ -1,0 +1,15 @@
+ehm.. ehm.. Go check out yourself! 
+
+https://github.com/Slicer/Slicer/pull/9394
+https://github.com/Slicer/Slicer/pull/9395
+
+brief about the project: 
+-----------------------
+-> 3D Slicer - when given an CT scan / MRI scans -> analayze, measure things, highlight organns/tumors, plan surgeries and much more. 
+-> used majorly by reasearchers, doctors and scientists
+-> a popular repoistory in the medical field! kekekekeke 
+
+My contributions:
+-----------------
+1. Added a "Build Options" -> brief about the features used in slicer and their use cases so the user can pick and choose
+2. Created a page "Python_environment.md" -> Explains about python codebase of Slicer in simple words
